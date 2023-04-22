@@ -18,9 +18,17 @@
     width: 100vw;
     height: 100vh;
     background-color: var(--primary-color);
-    background-image: url(../img/perfil.png) ;
+   /* background-image: url(../img/perfil.png) ;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1;
+    background-position: center;*/
+    
+}
+img {
+    margin-top: 10px;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5;
+
 }
 
