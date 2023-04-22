@@ -1,95 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/reset-golbal.css" />
-    <link rel="stylesheet" href="CSS/portifolio.css" />
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <!--Icones do google-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <title>PORTIFOLIO</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <title>PORTFOLIO</title>
 </head>
-
 <body>
-    <aside class="sidebar border">
-        <header class="sidebar-header">
-            <img class="logo-img"src="img/IMG_20230324_102706_701.png" alt="perfil">
-        </header>
-        <nav >
+    <header class="header-container">
+        <div class="header">
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox"  id="toggle">
+                    <label class="checkbox" for="toggle">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>
+                    <div class="menu"></div>
+                    <div class="menu-itens">
+                        <ul>
+                            <li>
+                                <a href="#">Social</a>
+                            </li>
+                            <li>
+                                <a href="#">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="#">Projetos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1>ANDERSON CARLOS </h1>
+        <h2>Desenvolvedor Front-end</h2>
+        <div class="social-midia">
+            <a href="#">Likdin</a>
+            <a href="#">GitHub</a>
+        </div>
+    </header>
+    <main class="container">
 
-            <button>
-                <span>
-                    <i class="material-symbols-outlined">home</i>
-                    <span>HOME</span>
-                </span>
-            </button>
-
-            <button>
-                <span>
-                    <i class="material-symbols-outlined">contacts</i>
-                    <span><a href="https://app.netlify.com/teams/andersonbr01/overview" target="_blank">CONTATOS</a></span>
-                </span>
-            </button>
-
-            <button>
-                <span>
-                    <i class="material-symbols-outlined">import_contacts</i>
-                    <span> <a href="https://app.netlify.com/teams/andersonbr01/overview" target="_blank">PROJETOS</a></span>
-                </span>
-            </button>
-
-        </nav>
-    </aside>
-
-    <!--Criando menu mobile-->
-
-    <button class="button-mobile " onclick="toggleMenu()">
-        <i class="material-symbols-outlined"> menu</i>
-        <span>MENU</span>
-    </button>
-
-    <nav class="menu-mobile" id="menu-mobile">
-        <button onclick="toggleMenu()">
-            <span>
-                <i class="material-symbols-outlined"> close</i>
-            </span>
-        </button>
-
-        <button>
-            <span>
-                <i class="material-symbols-outlined">home</i>
-                <span class="mobile-text">HOME</span>
-            </span>
-        </button>
-
-        <button>
-            <span>
-                <i class="material-symbols-outlined">contacts</i>
-                <span  class="mobile-text">CONTATOS</span>
-            </span>
-        </button>
-
-        <button>
-            <span>
-                <i class="material-symbols-outlined">import_contacts</i>
-                <span  class="mobile-text">PROJETOS</span>
-            </span>
-        </button>
-    </nav>
-
-    <main class="main">
-        <h1>ANDERSON CARLOS SILVA</h1>
-        <a href="https://app.netlify.com/teams/andersonbr01/overview">Site</a>
     </main>
 
-    <script src="js/portifolio.js"></script>
-
+    <footer></footer>
 </body>
-
 </html>

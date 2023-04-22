@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+:root{
+    --primary-color:#E11F26;
+    --secudary-color:#FABE12;
+}
+/**header*/
+
+.header-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primary-color);
+    background-image: url(../img/perfil.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1;
+}
+
